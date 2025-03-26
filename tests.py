@@ -37,7 +37,7 @@ class Test(unittest.TestCase):
         self.assertEqual(m2._cells[0][0].has_top_wall, False)
         self.assertEqual(m2._cells[num_rows_2 -1][num_cols_2 -1].has_bottom_wall, False)
 
-        # Check cells visited == false
+        # Check cells visited is false
         self.assertEqual(m1._cells[0][0].visited, False)
         self.assertEqual(m1._cells[num_rows //2][num_cols//2].visited, False)
         self.assertEqual(m1._cells[num_rows -1][num_cols -1].visited, False)
